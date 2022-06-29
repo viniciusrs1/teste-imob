@@ -16,17 +16,14 @@ function getDataById() {
 
 function renderPost(post) {
   const html = `
-      <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
-          <a href="./post.html">
-              <div class="post-item">
-                  <p>
-                      ${item.title}
-                  </p>
-              </div>
-          </a>
-      </div>`;
+<div class="col-12">
+  <h1>
+    ${post.title}
+  </h1>
+  <p>
+  ${post.body}
+  </p>
+</div>`;
 
-  $(".posts").append(html);
-
-  page++;
+  $(".content-post").append(html);
 }

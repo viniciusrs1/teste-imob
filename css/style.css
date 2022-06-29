@@ -2,8 +2,22 @@ body {
   font-family: Poppins;
 }
 
+.wrapper-header-logo-menu {
+  padding: 20px 0;
+}
+
 .navbar-content {
   display: flex;
+  align-items: center;
+}
+
+.navbar-content a {
+  font-size: 20px;
+  color: black !important;
+}
+
+.navbar-content i {
+  color: #0cc243;
 }
 
 .post-item {
@@ -25,7 +39,7 @@ body {
 
 .content-post {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 3rem !important;
 }
 
 .content-post h1 {
@@ -40,5 +54,12 @@ body {
 footer {
   margin-top: 3rem;
   background-color: #f8f9fa;
-  height: 105px;
+}
+
+footer img {
+  margin-bottom: 1rem;
+}
+
+.wrapper-footer-logo-content {
+  padding: 20px 0;
 }
