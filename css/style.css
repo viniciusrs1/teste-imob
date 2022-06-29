@@ -1,0 +1,44 @@
+body {
+  font-family: Poppins;
+}
+
+.navbar-content {
+  display: flex;
+}
+
+.post-item {
+  margin-top: 3rem;
+  border: 1px solid #004d8b;
+  background: #f8f9fa;
+  height: 230px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #004d8b;
+  text-align: center;
+}
+
+.posts a {
+  text-decoration: none;
+}
+
+.content-post {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.content-post h1 {
+  margin-bottom: 3rem;
+  color: #fd8402;
+}
+
+.content-post p {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: #f8f9fa;
+  height: 105px;
+}
